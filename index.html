@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Emanuel Florea</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Emanuel
+                        <span class="text-primary">Florea</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Newbury · UK ·  
+                        <a href="mailto:emanuel.ion.florea@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        
+                        </a>
+                    </div>
+                    <p class="lead mb-5">A software engineer driven by a passion for building things that solve real-world problems. My experience covers the entire project lifecycle, from architecture to deployment, and as a product-focused developer, I am motivated by taking ownership and solving complex challenges in a team.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/emmanuel-florea/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/OldManny"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />            
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Projects</h2>
+
+                    <!-- Project 1 -->
+                    <div class="row align-items-center mb-5">
+                    <!-- Screenshot -->
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <img src="assets/img/files.png" alt="AutoMate Screenshot" class="img-fluid rounded shadow">
+                        </div>
+                        <!-- Text -->
+                        <div class="col-md-6">
+                            <h3>AutoMate</h3>
+                            <p class="text-muted"><strong>Tech:</strong> Python, PyQt5, APScheduler, bcrypt</p>
+                            <p>
+                            A cross-platform desktop utility built to streamline and automate repetitive tasks like file management, email scheduling, and data processing. 
+                            Features a clean and intuitive PyQt5 interface.
+                            </p>
+                            <ul>
+                                <li>File sorting, renaming, backup, duplicate detection</li>
+                                <li>Integrated with Mailgun API for email delivery</li>
+                                <li>Background jobs with APScheduler + undo functionality</li>
+                                <li>Secure login with bcrypt, CI/CD pipelines for releases</li>
+                            </ul>
+                            <a href="https://github.com/OldManny/AutoMate" target="_blank" class="btn btn-sm btn-outline-light">
+                            GitHub Repo
+                            </a>
+                            <a href="https://github.com/OldManny/AutoMate/releases" target="_blank" class="btn btn-sm btn-outline-light ms-2">
+                            Releases
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=IgbsXrXqhWA" target="_blank" class="btn btn-sm btn-outline-light ms-2">
+                            Watch Demo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="row align-items-center mb-5 flex-md-row-reverse">
+                        <!-- Screenshot -->
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <img src="assets/img/maze.png" alt="Snaze Screenshot" class="img-fluid rounded shadow">
+                        </div>
+                        <!-- Text -->
+                        <div class="col-md-6">
+                            <h3>Snaze</h3>
+                            <p class="text-muted"><strong>Tech:</strong> Next.js, React, Tailwind, Vercel</p>
+                            <p>
+                            An interactive web platform visualising maze generation and pathfinding algorithms.
+                            Features a fully autonomous AI Snake game powered by A*, flood-fill, and tail-chasing strategies.
+                            </p>
+                            <ul>
+                                <li>Algorithms: BFS, DFS, A*, Dijkstra</li>
+                                <li>Visual feedback and performance metrics</li>
+                                <li>Responsive Next.js + Tailwind UI</li>
+                                <li>Deployed on Vercel</li>
+                            </ul>
+                            <a href="https://github.com/OldManny/Snaze" target="_blank" class="btn btn-sm btn-outline-light">
+                            GitHub Repo
+                            </a>
+                            <a href="https://snaze.vercel.app" target="_blank" class="btn btn-sm btn-outline-light ms-2">
+                            Live Demo
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="row align-items-center mb-5">
+                    <!-- Screenshot -->
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <img src="assets/img/chat.png" alt="ChaSe Screenshot" class="img-fluid rounded shadow">
+                        </div>
+                        <!-- Text -->
+                        <div class="col-md-6">
+                            <h3>ChaSe</h3>
+                            <p class="text-muted"><strong>Tech:</strong> Python, PyQt5, MySQL, SSL, bcrypt</p>
+                            <p>
+                            A secure, real-time client–server chat application supporting public/private messaging and history.
+                            </p>
+                            <ul>
+                                <li>User registration & authentication</li>
+                                <li>SSL encryption & bcrypt hashing</li>
+                                <li>MySQL backend for storing messages</li>
+                                <li>CI/CD pipelines for continuous integration</li>
+                                <li><b>Roadmap:</b> end-to-end encryption and group chat</li>
+                            </ul>
+                            <a href="https://github.com/OldManny/ChaSe" target="_blank" class="btn btn-sm btn-outline-light">
+                            GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Roehampton University</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science · First Class Honours</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2022 - July 2025</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">
+                            <span style="font-size:3rem; font-weight:600; color:#C3BEB6;" data-bs-toggle="tooltip" title="C++">C++</span>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-python" data-bs-toggle="tooltip" title="Python"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-js-square" data-bs-toggle="tooltip" title="JavaScript"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-react" data-bs-toggle="tooltip" title="React"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-node-js" data-bs-toggle="tooltip" title="Node.js"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-html5" data-bs-toggle="tooltip" title="HTML5"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-css3-alt" data-bs-toggle="tooltip" title="CSS3"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-database" data-bs-toggle="tooltip" title="MySQL & MongoDB"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-bootstrap" data-bs-toggle="tooltip" title="Bootstrap"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-github" data-bs-toggle="tooltip" title="GitHub"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-linux" data-bs-toggle="tooltip" title="Linux"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-docker" data-bs-toggle="tooltip" title="Docker"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-expeditedssl" data-bs-toggle="tooltip" title="Password Hashing & SSL Encryption"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-npm" data-bs-toggle="tooltip" title="npm"></i>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                        <p>Apart from being a software developer, I enjoy most of my time being outdoors. You may find me seeking out the tranquillity of a long hike or embracing the challenge of climbing.</p>
+                        <p class="mb-0">When forced indoors, I follow a number of sci-fi and action genre movies and television shows, have a book on the go, and spend a large amount of my free time exploring the latest technology advancements.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

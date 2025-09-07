@@ -1,0 +1,38 @@
+/* Background */
+body {
+  background-color: #131516 !important; /* page background */
+  color: #C3BEB6; /* default text */
+}
+
+/* Sidebar */
+#sideNav {
+  background-color: #974A2D !important;
+}
+
+/* Name colors */
+.resume-section-content h1 {
+  color: #C3BEB6; /* first name */
+}
+.resume-section-content h1 .text-primary {
+  color: #CC7553 !important; /* surname */
+}
+
+/* Email + other links */
+.resume-section-content .subheading a {
+  color: #CC7553 !important; /* email link */
+}
+
+/* Circle around profile photo */
+#sideNav .navbar-brand .img-profile {
+  border: 0.5rem solid #82462F !important;
+}
+
+/* Skills section icons */
+.dev-icons i {
+  color: #9E9689 !important;
+}
+
+/* Section Titles (h2, h3, etc.) */
+h2, h3, h4, h5, h6 {
+  color: #C3BEB6 !important; /* same as rest of text */
+}
