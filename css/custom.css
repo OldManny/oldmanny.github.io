@@ -36,3 +36,11 @@ body {
 h2, h3, h4, h5, h6 {
   color: #C3BEB6 !important; /* same as rest of text */
 }
+
+.btn-outline-custom {
+    --bs-btn-color: #CC7553;
+    --bs-btn-border-color: #CC7553;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #974A2D;
+    --bs-btn-hover-border-color: #974A2D;
+}
