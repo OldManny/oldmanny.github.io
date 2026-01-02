@@ -49,7 +49,8 @@
                         <i class="fas fa-envelope"></i>                        
                         </a>
                     </div>
-                    <p class="lead mb-5">A software engineer driven by a passion for building things that solve real-world problems. My experience covers the entire project lifecycle, from architecture to deployment, and as a product-focused developer, I am motivated by taking ownership and solving complex challenges in a team.</p>
+                    <p class="lead mb-2">A software engineer with a strong interest in performance-critical systems and practical automation. My experience covers the entire project lifecycle, from system design and implementation to deployment and iteration, with a strong sense of ownership over what I build.</p>
+                    <p class="lead mb-5">As a product-minded developer, I enjoy owning complex problems, working closely with others and building solutions that have a real-world impact.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/emmanuel-florea/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/OldManny"><i class="fab fa-github"></i></a>
@@ -63,6 +64,36 @@
                     <h2 class="mb-4">Projects</h2>
 
                     <!-- Project 1 -->
+                    <div class="row align-items-center mb-5 flex-md-row-reverse">
+                        <!-- Screenshot -->
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <img src="assets/img/trade.png" alt="Performance Benchmark (Matching 100k Orders)" class="img-fluid rounded shadow">
+                        </div>
+                        <!-- Text -->
+                        <div class="col-md-6">
+                            <h3>Trade</h3>
+                            <p class="text-muted"><strong>Tech:</strong> .NET 8, C#, Kubernetes, Terraform, PostgreSQL </p>
+                            <p>
+                            A high-frequency matching engine designed for sub-microsecond latency and deterministic execution. 
+                            The system uses a single-threaded, actor-style core to keep the hot path lock-free and predictable, while offloading I/O and persistence asynchronously.
+                            </p>
+                            <ul>
+                                <li>13.2M+ matches/sec with sub-80ns mean latency, via BenchmarkDotNet</li>
+                                <li>Single-threaded actor-style execution using System.Threading.Channels</li>
+                                <li>Clear separation between hot execution paths and asynchronous persistence</li>
+                                <li>Cloud-native deployment with Kubernetes and Terraform</li>
+                            </ul>
+                            <a href="https://github.com/OldManny/TraDe" target="_blank" class="btn btn-sm btn-outline-light">
+                            GitHub Repo
+                            </a>
+                            <!-- <a href="https://snaze.vercel.app" target="_blank" class="btn btn-sm btn-outline-custom ms-2">
+                            Live Demo
+                            </a> -->
+                        </div>
+                    </div>
+
+
+                    <!-- Project 2 -->
                     <div class="row align-items-center mb-5">
                     <!-- Screenshot -->
                         <div class="col-md-6 mb-3 mb-md-0">
@@ -94,7 +125,7 @@
                         </div>
                     </div>
 
-                    <!-- Project 2 -->
+                    <!-- Project 3 -->
                     <div class="row align-items-center mb-5 flex-md-row-reverse">
                         <!-- Screenshot -->
                         <div class="col-md-6 mb-3 mb-md-0">
@@ -123,7 +154,7 @@
                         </div>
                     </div>
 
-                    <!-- Project 3 -->
+                    <!-- Project 4 -->
                     <div class="row align-items-center mb-5">
                     <!-- Screenshot -->
                         <div class="col-md-6 mb-3 mb-md-0">
@@ -173,11 +204,16 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
+                    <ul class="list-inline dev-icons text-center">
+                        <li class="list-inline-item">
+                            <span style="font-size:3rem; font-weight:600; color:#C3BEB6;" data-bs-toggle="tooltip" title="C# & .NET 8">C#</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span style="font-size:3rem; font-weight:600; color:#C3BEB6;" data-bs-toggle="tooltip" title="C# & .NET 8">.NET</span>
+                        </li>
                         <li class="list-inline-item">
                             <span style="font-size:3rem; font-weight:600; color:#C3BEB6;" data-bs-toggle="tooltip" title="C++">C++</span>
                         </li>
-
                         <li class="list-inline-item">
                             <i class="fa-brands fa-python" data-bs-toggle="tooltip" title="Python"></i>
                         </li>
@@ -197,7 +233,13 @@
                             <i class="fab fa-css3-alt" data-bs-toggle="tooltip" title="CSS3"></i>
                         </li>
                         <li class="list-inline-item">
-                            <i class="fas fa-database" data-bs-toggle="tooltip" title="MySQL & MongoDB"></i>
+                            <i class="fa-solid fa-dharmachakra" data-bs-toggle="tooltip" title="Kubernetes (K8s)"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-solid fa-cloud-arrow-up" data-bs-toggle="tooltip" title="Terraform (IaC)"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-database" data-bs-toggle="tooltip" title="MySQL, PostgreSQL & MongoDB"></i>
                         </li>
                         <li class="list-inline-item">
                             <i class="fab fa-bootstrap" data-bs-toggle="tooltip" title="Bootstrap"></i>
@@ -227,7 +269,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
                         <p>Apart from being a software developer, I enjoy most of my time being outdoors. You may find me seeking out the tranquillity of a long hike or embracing the challenge of climbing.</p>
-                        <p class="mb-0">When forced indoors, I follow a number of sci-fi and action genre movies and television shows, have a book on the go, and spend a large amount of my free time exploring the latest technology advancements.</p>
+                        <p class="mb-0">When indoors, I follow a number of sci-fi and action genre movies and television shows, have a book on the go and spend time exploring new technology and emerging tools.</p>
                 </div>
             </section>
             <hr class="m-0" />
