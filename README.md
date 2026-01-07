@@ -6,6 +6,7 @@ This repository contains my personal portfolio website, and it presents my proje
 
 ## Projects Featured
 
+- [TraDe](https://github.com/OldManny/TraDe) – High-frequency matching engine designed for sub-microsecond latency and deterministic execution. 
 - [AutoMate](https://github.com/OldManny/AutoMate) – Cross-platform automation desktop app (file management, email scheduling, data operations)  
 - [Snaze](https://github.com/OldManny/Snaze) – Interactive platform for maze generation, pathfinding visualisation, and an AI Snake game  
 - [ChaSe](https://github.com/OldManny/ChaSe) – Secure real-time chat application with SSL, MySQL, and CI/CD integration  
